@@ -1,0 +1,6 @@
+[book]
+authors = ["Rifesama"]
+language = "es"
+multilingual = false
+src = "src"
+title = "Aprende @DigitalP2PBot"

@@ -1,0 +1,3 @@
+# ¿Hay algún límite (mínimo o máximo) en las cantidades que puedo transar?
+
+Inicialmente el minimo sera de 1 dolar y un limite de 1.000 dolares por cada transacción, pero si quieres comerciar 5.000 dolares puedes hacer 5 transacciones sin ningun incomveniente. Sin embargo, si desea comerciar grandes cantidades tenemos un canal VIP donde los topes son mas altos, para esto deberas contactar algun admnistrador y comertar tu caso.
