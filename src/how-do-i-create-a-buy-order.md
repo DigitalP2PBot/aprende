@@ -54,7 +54,7 @@ El intercambio ha terminado. Ahora puedes calificar a tu contraparte.
 
 Puedes salir del asistente en cualquier momento ejecutando el comando `/exit`.
 
-Para ejecutar la misma orden de compra, sin usar el asistente, debes escribir tu orden con los detalles: `/buy`<monto en USDT> <monto en fiat> <código fiat> <método de pago> [prima/descuento] (sin los carácteres especiales).
+Para ejecutar la misma orden de compra, sin usar el asistente, debes escribir tu orden con los detalles: `/buy <monto en USDT> <monto en fiat> <código fiat> <método de pago>` [prima/descuento] (sin los carácteres especiales).
 
 Ejemplo: `/buy 50 200000 COP "Banco XYZ"`
 
@@ -62,8 +62,8 @@ Compro cincuenta USDT a docientos mil pesos pago por banco xyz
 
 Algunos ejemplos de órdenes de compra serían los siguientes:
 
-- Ej. `/buy 0 50 ves "banco xyz"`: Compro cincuenta bolívares en USDT -en este caso el bot hará el cálculo a la tasa de mercado- pago por banco xyz
-- Ej. `/buy 0 10000-200000 COP "Nequi"`: Compro de 10.000 a 200.000 pesos-en este caso el vendedor elegirá qué monto venderte en ese rango- pago por pago móvil
+- Ej. `/buy 0 50 ves "Banco Z"`: Compro cincuenta bolívares en USDT -en este caso el bot hará el cálculo a la tasa de mercado- pago por banco Z.
+- Ej. `/buy 0 10000-200000 COP "X Bank"`: Compro de 10.000 a 200.000 pesos-en este caso el vendedor elegirá qué monto venderte en ese rango- pago por X bank.
 - Ej. `/buy 0 100 EUR "Euroya" -3`: Compro 100 euros descontando 3% -en este caso el bot hará el cálculo a la tasa de mercado descontando o incrementando el porcentaje que elijas- pago por Euroya.
 
 De haber alguna variable no compatible, el bot te lo indicará durante el proceso de creación de la orden. Al completarla, la misma se publicará automáticamente en el canal de intercambio y será visible por un período de 23 horas.
